@@ -199,6 +199,12 @@ header {
   margin: 0;
 }
 
+@media (max-width: 450px) {
+  .brand h1 {
+  font-size: 1.7rem;
+}
+}
+
 .brand .tag {
   color: var(--dark);
   font-weight: 600;
