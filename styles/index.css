@@ -392,6 +392,23 @@ h3 {
   transition: 0.2s ease;
 }
 
+.testimonial-wrapper {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Remove extra padding inside scroll area */
+.testimonial-track {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.testimonial-card {
+  margin: 0 !important;
+}
+
 @media (min-width: 851px) {
   .testimonial-card {
     flex: 0 0 calc(33.333% - 10px);
@@ -401,11 +418,10 @@ h3 {
 @media (max-width: 850px) {
   .testimonial-card {
     flex: 0 0 100%;
-    padding: 14px;
   }
 
   .testimonial-track {
-    gap: 10px;
+    gap: 12px;
   }
 }
 
