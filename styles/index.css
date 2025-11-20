@@ -413,6 +413,9 @@ h3 {
   .ts-btn {
     padding: 8px 10px;
   }
+  .chip {
+    font-size: 0.85rem;
+  }
 }
 
 .quote {
