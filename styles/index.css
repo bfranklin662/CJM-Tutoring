@@ -348,6 +348,8 @@ h3 {
   color: var(--dark);
 }
 
+
+
 .testimonial-wrapper {
   position: relative;
   display: flex;
@@ -395,6 +397,15 @@ h3 {
 .ts-btn:hover {
   background: #1f7f87;
 }
+
+@media (max-width: 450px) {
+  .chip {
+    font-size: 0.8rem;
+  }
+  .ts-btn {
+    padding: 8px 10px;
+  }
+} 
 
 @media (min-width: 851px) {
   .testimonial-card {
